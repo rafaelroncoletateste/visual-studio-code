@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #4286f4, #373B44);
+}
+
+header {
+    padding: 10px;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+header nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+header nav .navlist {
+    display: flex;
+}
+
+header nav .navlist li {
+    margin-left: 60px;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header nav .navlist li:hover {
+    border-bottom: 2px solid blue;
+    transition: all 0.3s ease-in-out;
+}
+
+main p {
+    padding: 10px 10px 0 10px;
+    text-indent: 50px;
+    color: white;
+}
+
+main #chatgpt {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main #main-bg {
+    height: 700px;
+    background-image: url(imagens/nos/image.png);
+}
+
+main #pos-imagem {
+    margin-top: 20px;
+}
+
+main #outro-main-bg {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(imagens/nos/image.png);
+}
+
+main #main-divs {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+main #elebrakc {
+    position: relative;
+    top: 10px;
+    right: 0;
+    height: 220px;
+    width: 160px;
+    border-radius: 20%;
+}
+
+main #elebrakc:hover {
+    border: 4px solid black;
+}
+
+main #buratto {
+    position: relative;
+    top: 10px;
+    right: 0;
+    height: 220px;
+    width: 160px;
+    border-radius: 20%
+}
+
+main #buratto:hover {
+    border: 4px solid black;
+}
+
+main #vitor {
+    position: relative;
+    top: 10px;
+    right: 0;
+    height: 220px;
+    width: 160px;
+    border-radius: 20%;
+}
+
+main #vitor:hover {
+    border: 4px solid black;
+}
+
+main #elebrakc img {
+    height: 212px;
+    width: 152px;
+    border-radius: 20%
+}
+
+main #buratto img {
+    height: 212px;
+    width: 152px;
+    border-radius: 20%
+}
+
+main #vitor img {
+    height: 212px;
+    width: 152px;
+    border-radius: 20%;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-self: center;
+}
