@@ -36,7 +36,7 @@ header nav .ullist a {
     margin-left: 60px;
     border-bottom: 2px solid transparent;
     color: #090979;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -52,12 +52,17 @@ main #elebrakc h1, h2 {
 main #elebrakc {
     text-indent: 30px;
     background-color: #005e70;
+    padding-bottom: 18px;
 }
 
 main #elebrakc div {
     display: flex;
     justify-content: space-around;
     height: 360px;
+}
+
+main #elebrakc img {
+    border-radius: 10%;
 }
 
 main #buratto h1, h2 {
@@ -67,10 +72,35 @@ main #buratto h1, h2 {
 main #buratto {
     text-indent: 30px;
     background-color: #00d4ff;
+    padding-bottom: 18px;
 }
 
 main #buratto div {
     display: flex;
     justify-content: space-around;
     height: 360px;
+}
+
+main #buratto img {
+    border-radius: 10%;
+}
+
+main #vitinho h1, h2 {
+    text-align: center;
+}
+
+main #vitinho {
+    text-indent: 30px;
+    background-color: #005e70;
+    padding-bottom: 18px;
+}
+
+main #vitinho div {
+    display: flex;
+    justify-content: space-around;
+    height: 360px;
+}
+
+main #vitinho img {
+    border-radius: 10%;
 }
