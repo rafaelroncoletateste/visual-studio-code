@@ -10,8 +10,11 @@ html {
     scroll-behavior: smooth;
 }
 
+header, main, footer p {
+    font-size: 18px;
+}
+
 header {
-    position: sticky;
     height: 90px;
     background-image: linear-gradient(to top, #051732, #062e60, #094791, #1461c6, #267cfd);
 }
@@ -37,7 +40,6 @@ header nav .ullist a {
     margin-left: 60px;
     border-bottom: 2px solid transparent;
     color: #090979;
-    font-size: 22px;
     font-weight: 500;
 }
 
@@ -104,4 +106,18 @@ main #vitinho div {
 
 main #vitinho img {
     border-radius: 10%;
+}
+
+footer {
+    background-image: linear-gradient(to top, #051732, #062e60, #094791, #1461c6, #267cfd);
+}
+
+footer #bonus {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 33px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
 }
