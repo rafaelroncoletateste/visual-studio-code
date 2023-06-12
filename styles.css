@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 90px;
+    background-color: #00d4ff;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: 900;
+    padding: 18px;
+    color: #090979;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+} 
+
+header nav .ullist {
+    display: flex;
+    padding-top: 18px;
+}
+
+header nav .ullist a {
+    margin-left: 60px;
+    border-bottom: 2px solid transparent;
+    color: #090979;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header nav .ullist a:hover {
+    border-bottom: 2px solid #090979;
+    transition: ease-in-out 0.3s;
+}
+
+main #elebrakc h1, h2 {
+    text-align: center;
+}
+
+main #elebrakc {
+    text-indent: 30px;
+    background-color: #005e70;
+}
+
+main #elebrakc div {
+    display: flex;
+    justify-content: space-around;
+    height: 360px;
+}
+
+main #buratto h1, h2 {
+    text-align: center;
+}
+
+main #buratto {
+    text-indent: 30px;
+    background-color: #00d4ff;
+}
