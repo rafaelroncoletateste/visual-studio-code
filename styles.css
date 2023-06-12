@@ -68,3 +68,9 @@ main #buratto {
     text-indent: 30px;
     background-color: #00d4ff;
 }
+
+main #buratto div {
+    display: flex;
+    justify-content: space-around;
+    height: 360px;
+}
