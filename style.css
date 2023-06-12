@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, #051732, #062e60, #094791, #1461c6, #267cfd);
+}
+
+#bonus {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 33px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+main img, video {
+    height: 360px;
+}
+main #brakc {
+    display: grid;
+    grid-template-columns: repeat(5, 360px);
+}
