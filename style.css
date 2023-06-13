@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background-image: linear-gradient(to top, #051732, #062e60, #094791, #1461c6, #267cfd);
+    background-image: linear-gradient(to bottom, #051732, #062e60, #094791, #1461c6, #267cfd);
 }
 
 #bonus {
@@ -16,7 +16,9 @@ body {
 main img, video {
     height: 360px;
 }
-main #brakc {
-    display: grid;
-    grid-template-columns: repeat(5, 360px);
+
+main h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
 }
