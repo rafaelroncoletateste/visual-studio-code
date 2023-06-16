@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html {
+html, body {
     scroll-behavior: smooth;
 }
 
@@ -17,6 +17,8 @@ header, main, footer p {
 header {
     height: 90px;
     background-image: linear-gradient(to top, #051732, #062e60, #094791, #1461c6, #267cfd);
+    position: fixed;
+    width: 100%;
 }
 
 header .logo {
