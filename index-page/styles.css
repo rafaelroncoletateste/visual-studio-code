@@ -16,3 +16,57 @@ body {
     background: #5D1D2B;
     background: linear-gradient(0deg, #5D1D2B, #4DE4CE);
 }
+
+header {
+    position: sticky;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: 900;
+    color: #5D1D2B;
+}
+
+header .ullist{
+    display: flex;
+}
+
+header .ullist li{
+    margin-left: 60px;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+}
+
+header .ullist li:hover {
+    border-bottom: 3px solid #5D1D2B;
+    transition: ease-in-out 0.3s;
+}
+
+header .ullist a {
+    color: #5D1D2B;
+}
+
+main h1, h2 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 28px;
+}
+
+main p {
+    padding-top: 22px;
+    font-size: 22px;
+    text-align:center;
+}
+
+main #foto-brakc {
+    height: 480px;
+    text-align: center;
+    padding-top: 16px;
+    border-radius: 12px;
+}
