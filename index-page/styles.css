@@ -90,3 +90,27 @@ main .all-fts {
     justify-content: space-evenly;
     padding-top: 12px;
 }
+
+footer {
+    position: relative;
+}
+
+footer img{
+    padding-top: 22px;
+    height: 640px;
+}
+
+footer .img-nos-footer{
+    text-align: center;
+}
+
+footer audio {
+    border: 4px solid black;
+    width: 28%;
+    border-radius: 16px;
+}
+
+footer .audio-footer {
+    text-align: center;
+    margin-top: 16px;
+}
