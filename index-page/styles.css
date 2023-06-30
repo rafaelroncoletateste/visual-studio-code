@@ -12,9 +12,8 @@ html {
 }
 
 body {
-    height: 100vh;
-    /*background: #5D1D2B;
-    background: linear-gradient(0deg, #5D1D2B, #4DE4CE); */
+    height: 100%;
+    background-image: linear-gradient(180deg, #5D1D2B, #4DE4CE); 
 }
 
 header {
@@ -30,7 +29,7 @@ header nav {
 header .logo {
     font-size: 28px;
     font-weight: 900;
-    color: #5D1D2B;
+    color: #4DE4CE;
 }
 
 header .ullist{
@@ -44,12 +43,12 @@ header .ullist li{
 }
 
 header .ullist li:hover {
-    border-bottom: 3px solid #5D1D2B;
+    border-bottom: 3px solid #4DE4CE;
     transition: ease-in-out 0.3s;
 }
 
 header .ullist a {
-    color: #5D1D2B;
+    color: #4DE4CE;
 }
 
 main h1, h2 {
