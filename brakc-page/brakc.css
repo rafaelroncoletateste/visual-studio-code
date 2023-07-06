@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    background-color: #5D1D2B;
+}
+
+h1, h2{
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+p {
+    text-indent: 30px;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
